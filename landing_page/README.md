@@ -23,7 +23,7 @@ This project is a simple landing page built using HTML and CSS.
 * CSS3
 
 ### Copyright Info
-   *The images on this page have been taken from the web.
+   * The images on this page have been taken from the web.
    
    ```
    https://wallpapercave.com/wp/wp7098436.jpg
