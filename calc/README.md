@@ -1,4 +1,4 @@
-## Level 1 Task 3
+## Level 1 Task 3 Calculator
 
 This project is a basic calculator built using HTML, CSS, and JavaScript. It allows users to perform fundamental arithmetic operations like addition, subtraction, multiplication, and division.
 
