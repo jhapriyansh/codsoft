@@ -1,4 +1,4 @@
-## Landing Page - HTML & CSS
+## Level 1 Task 2 Landing Page
 
 This project is a simple landing page built using HTML and CSS.
 
