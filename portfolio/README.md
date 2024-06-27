@@ -1,4 +1,4 @@
-## Level 1 Task 2
+## Level 1 Task 1 Portfolio
 
 This is the code for a portfolio website built with HTML and CSS.
 
@@ -21,7 +21,7 @@ This website showcases my skills. It features sections highlighting my:
 
    * `index.html`: The main HTML file for the website.
    * `styles.css`: The CSS stylesheet for the website design.
-   * Few images
+   * Few images (In projects section taken from my vercel)
 
 3. **Run the Page:**
 
@@ -32,3 +32,27 @@ This website showcases my skills. It features sections highlighting my:
 * HTML5
 * CSS3
 
+### Copyright Info
+   * The images on this page have been taken from the web.
+   
+   ```
+   https://wallpaperaccess.com/full/1769997.jpg
+   ```
+
+   ```
+   https://lh3.googleusercontent.com/a/ACg8ocL9wnK2xo6jrDYJFoA4Rx1Y0edFjGx3MWAmmHbatJ-ovuO6Rne9qA=s576-c-no
+   ```
+
+   ```
+   https://img.freepik.com/free-vector/brown-futuristic-waves-background-with-computer-code-technology_53876-119576.jpg?size=626&ext=jpg
+   ```
+
+   ```
+   https://i.pinimg.com/originals/07/3b/0a/073b0a8d46ca7010d85eb69b1792bccd.jpg
+   ```
+
+   * And the SVGs have been taken from
+     
+     ```
+     svgrepo.com
+     ```
