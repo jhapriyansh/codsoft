@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #424242;
+  height: 100%;
+}
+.calculator {
+  width: 350px;
+  height: auto;
+  margin: 70px auto 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.calculator span {
+  -moz-user-select: none;
+  user-select: none;
+}
+.top {
+  height: 150px;
+  position: relative;
+  background-color: rgb(24, 24, 24);
+}
+.top .screen {
+  position: relative;
+  width: 100%;
+  top: 20%;
+  height: 80%;
+}
+.screen > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 25px;
+  text-align: right;
+}
+.screen .inp {
+  color: #ffffff;
+  font-size: 35px;
+  height: 60%;
+}
+.screen .res {
+  color: rgb(207, 149, 3);
+  font-size: 20px;
+  height: 40%;
+}
+.bottom {
+  background-color: rgb(45, 45, 45);
+  height: 300px;
+  color: #fff;
+  cursor: pointer;
+}
+.bottom section {
+  position: relative;
+  height: 100%;
+  float: left;
+  display: flex;
+}
+.keys {
+  width: 80%;
+}
+.keys .column {
+  display: flex;
+  flex-grow: 1;
+}
+.keys .column,
+.operator {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.keys .column span,
+.operator span {
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-grow: 1;
+  width: 100%;
+  line-height: 1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s;
+}
+.keys .column span {
+  font-size: 25px;
+}
+.keys .column span:hover,
+.operator span:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgb(207, 149, 3);
+}
+.operator {
+  width: 20%;
+  font-size: 18px;
+  background-color: rgb(179, 129, 2);
+}
+.del {
+  font-size: 16px;
+}

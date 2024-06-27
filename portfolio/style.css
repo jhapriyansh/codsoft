@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(114, 79, 79);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+}
+
+.name,
+.navbar {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 3vh;
+}
+
+.name {
+  padding-left: 4vw;
+  gap: 2vw;
+  color: white;
+}
+
+.navbar {
+  padding-left: 5vw;
+  justify-content: space-around;
+  & > a {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 150ms all ease-in;
+    &:hover {
+      color: black;
+      background-color: rgb(255, 255, 255);
+    }
+  }
+}
+
+#about {
+  padding-top: 10vh;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://wallpaperaccess.com/full/1769997.jpg");
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  align-items: center;
+}
+
+.image {
+  height: 40vh;
+  width: 40vh;
+  background-repeat: no-repeat;
+  background-image: url("https://lh3.googleusercontent.com/a/ACg8ocL9wnK2xo6jrDYJFoA4Rx1Y0edFjGx3MWAmmHbatJ-ovuO6Rne9qA=s576-c-no");
+  background-size: contain;
+  border-radius: 100%;
+}
+
+.info {
+  padding: 2rem;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.502);
+  width: 40vw;
+  font-size: 4vh;
+  height: 30vh;
+  box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.268);
+  backdrop-filter: blur(10px);
+  & > p {
+    padding: 1vh 0;
+  }
+}
+
+#skills,
+#projects,
+#download {
+  height: 10vh;
+  background-color: rgb(63, 27, 27);
+}
+
+.skills {
+  background-image: url("https://img.freepik.com/free-vector/brown-futuristic-waves-background-with-computer-code-technology_53876-119576.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.skillsText {
+  border: none;
+  border-radius: 30px;
+  box-shadow: 10px 5px 5px rgba(255, 255, 255, 0.513);
+  padding: 2rem;
+  background: rgba(155, 121, 121, 0.338);
+  width: 90vw;
+  height: 80vh;
+  color: white;
+  backdrop-filter: blur(3px);
+}
+li {
+  margin-left: 4vh;
+  font-size: 3vh;
+}
+
+.skillsImg {
+  position: absolute;
+  height: 80vh;
+  width: 50vw;
+  right: 5vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.projects {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://i.pinimg.com/originals/07/3b/0a/073b0a8d46ca7010d85eb69b1792bccd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.projectText {
+  border: none;
+  border-radius: 30px;
+  padding: 2rem;
+  background: rgba(227, 184, 83, 0.496);
+  width: 90vw;
+  height: 80vh;
+  color: white;
+  backdrop-filter: blur(3px);
+}
+
+.projectDemo {
+  position: absolute;
+  left: 0;
+  top: 40vh;
+  height: 40vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dem1,
+.dem2 {
+  height: 48vh;
+  width: 30vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  & > a {
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 0.7rem;
+    transition: 150ms all ease-in;
+    border: none;
+    border-radius: 30px;
+    color: rgb(81, 81, 255);
+    &:hover {
+      color: black;
+      background-color: white;
+    }
+  }
+}
+
+.dem1 {
+  background-image: url("./image.png");
+}
+.dem2 {
+  background-image: url("./image2.png");
+}
+
+#contact {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(168, 122, 122);
+}
+
+.contactInfo {
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.email,
+.mobNo,
+.linkedin,
+.github {
+  padding: 0.2rem 0;
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+}

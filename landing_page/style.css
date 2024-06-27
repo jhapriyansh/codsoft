@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  width: 1440px;
+  overflow-x: hidden;
+}
+header {
+  display: flex;
+  width: 1406.88px;
+  height: 36px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #ffe3e3;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.logo {
+  width: 1008px;
+}
+.navBar {
+  width: 432px;
+  display: flex;
+  justify-content: space-around;
+  & > a {
+    border: none;
+    border-radius: 50px;
+    padding: 8px;
+    background-color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    transition: 100ms all ease-in;
+    &:hover {
+      background-color: rgb(251, 82, 82);
+      color: white;
+    }
+  }
+}
+.intro {
+  width: 1440px;
+  height: 720px;
+  background-image: url("https://wallpapercave.com/wp/wp7098436.jpg");
+  background-size: 1440px 720px;
+  filter: brightness(0.5);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.introText {
+  padding: 16px;
+  border: 2px solid rgb(255, 154, 154);
+  border-radius: 30px;
+  backdrop-filter: blur(6px);
+  filter: contrast(1);
+  position: absolute;
+  top: 420px;
+  font-size: 36px;
+  & > a {
+    color: rgb(255, 154, 154);
+    text-decoration: none;
+    transition: 150ms all ease-in;
+    &:hover {
+      color: white;
+      background: #ff5252;
+    }
+  }
+}
+#aboutUsSep {
+  height: 36px;
+}
+.aboutUs {
+  width: 1440px;
+  height: 720px;
+  position: relative;
+}
+.title {
+  margin-left: 15%;
+  margin-top: 36px;
+  font-size: 50.4px;
+  text-decoration: underline;
+  color: rgb(251, 82, 82);
+}
+.imgAboutUs {
+  height: 720px;
+  width: 1440px;
+  background-image: url("https://vectorified.com/image/dotted-world-map-vector-7.png");
+  background-size: 1440px 720px;
+  filter: blur(4px);
+}
+.content {
+  position: absolute;
+  top: 72px;
+  left: 10%;
+  right: 30%;
+}
+.contentImg {
+  right: -604.8px;
+  top: 36px;
+  filter: opacity(0.7);
+  height: 360px;
+  width: 576px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url("https://thumbs.dreamstime.com/z/portrait-handsome-elegant-man-standing-hands-folded-portrait-handsome-elegant-man-standing-hands-folded-white-135941863.jpg");
+  background-size: contain;
+}
+#ourServicesSep {
+  height: 36px;
+}
+.ourServices {
+  width: 1440px;
+  height: 720px;
+}
+.serviceTitle {
+  margin-left: 15%;
+  margin-top: 36px;
+  font-size: 50.4px;
+  text-decoration: underline;
+  color: rgb(251, 82, 82);
+}
+.services {
+  margin-top: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ser {
+  padding: 48px;
+  border: 2px solid #ffb8b8;
+  border-radius: 50px;
+  transition: 200ms all ease-in;
+  &:hover {
+    box-shadow: 12px 12px 2px 1px rgba(255, 154, 154, 0.514);
+  }
+  &:hover .servImg {
+    height: 288px;
+    width: 230.4px;
+  }
+  &:hover .servInfo {
+    font-size: 28.8px;
+  }
+}
+.servInfo {
+  font-size: 21.6px;
+  text-align: center;
+  transition: 200ms all ease-in;
+}
+.servImg {
+  height: 216px;
+  width: 172.8px;
+  background-repeat: no-repeat;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc8.alamy.com%2Fcomp%2F2AKWMX1%2Fservices-2AKWMX1.jpg&f=1&nofb=1&ipt=1f69c23bbbe7121dc8b532d980f7b59b94e765349426b3a04962ecf54cff5635&ipo=images");
+  background-size: contain;
+  transition: 200ms all ease-in;
+}
+#contactSep {
+  height: 36px;
+}
+footer {
+  height: 288px;
+}
+.contact {
+  height: 100%;
+  width: 1440px;
+  background: rgb(255, 141, 141);
+}
+.contactTitle {
+  margin-left: 7%;
+  padding-top: 36px;
+  font-size: 50.4px;
+  text-decoration: underline;
+  color: rgb(0, 0, 0);
+}
+.container {
+  display: flex;
+  height: 50%;
+  width: 1152px;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  margin-left: 10%;
+  font-size: 20px;
+  & > ul > li {
+    padding: 4.8px 0;
+  }
+}
+.links {
+  display: flex;
+  gap: 20px;
+  & > svg {
+    &:hover {
+      filter: drop-shadow(0 0 12px crimson);
+    }
+  }
+}
